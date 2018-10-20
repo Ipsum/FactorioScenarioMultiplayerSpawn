@@ -371,12 +371,6 @@ global.clMapGen.autoplace_controls = {
     ["iron-ore"]={frequency= "very-low", size= "low", richness= "high"},
     ["stone"]={frequency= "very-low", size= "low", richness= "high"},
     ["uranium-ore"]={frequency= "low", size= "low", richness= "high"},
-
-    ["desert"]={frequency= "low", size= "low", richness= "low"},
-    ["dirt"]={frequency= "low", size= "low", richness= "low"},
-    ["grass"]={frequency= "normal", size= "normal", richness= "normal"},
-    ["sand"]={frequency= "low", size= "low", richness= "low"},
-    ["trees"]={frequency= "normal", size= "normal", richness= "normal"}
 }
 -- Cliff defaults are 10 and 10, set both to 0 to turn cliffs off I think?
 global.clMapGen.cliff_settings={cliff_elevation_0=10, cliff_elevation_interval=10, name="cliff"}
